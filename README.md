@@ -26,7 +26,7 @@ This project demonstrates the analysis of DNS logs using Splunk. The goal is to 
 
 ## Files Included
 - `dns_log.json`: Sample DNS log file in JSON format.
-- `splunk_screenshots/`: Folder containing screenshots of query results.
+Screenshots: `DNS LOG SPLUNK TASK 1.png`, `DNS LOG SPLUNK TASK 2.png`, `DNS LOG SPLUNK TASK 3.png` (stored in repository root).
 
 ## Notes
 This project was created as part of a learning journey to become a SOC analyst. All tasks were performed using Splunk.
