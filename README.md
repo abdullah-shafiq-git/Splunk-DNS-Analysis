@@ -9,15 +9,14 @@ This project demonstrates the analysis of DNS logs using Splunk. The goal is to 
 ## Tasks Performed
 ### Task 1: Most Frequently Queried Domain Names
 - **Query Used**: `index=dns_lab sourcetype=json | stats count by query | sort -count`
-- **Screenshot**: ![Task 1 Result](DNS LOG SPLUNK TASK 1.png)
+- **Screenshot**: [![Task 1 Result](DNS LOG SPLUNK TASK 1.png)](DNS LOG SPLUNK TASK 1.png)
 
 ### Task 2: Most Active User IPs
 - **Query Used**: `index=dns_lab sourcetype=json | stats count by id.orig_h | sort -count`
-- **Screenshot**: ![Task 2 Result](DNS LOG SPLUNK TASK 2.png)
-
+- **Screenshot**: [![Task 2 Result](DNS LOG SPLUNK TASK 2.png)](DNS LOG SPLUNK TASK 2.png)
 ### Task 3: Breakdown of DNS Query Types
 - **Query Used**: `index=dns_lab sourcetype=json | stats count by qtype`
-- **Screenshot**: ![Task 3 Result](DNS LOG SPLUNK TASK 3.png)
+- **Screenshot**: [![Task 3 Result](DNS LOG SPLUNK TASK 3.png)](DNS LOG SPLUNK TASK 3.png)
 
 ## How to Use
 1. Upload the `dns_log.json` file to Splunk Cloud with index "dns_lab" and source type "json".
